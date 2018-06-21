@@ -1,0 +1,4 @@
+include ':app'
+
+include 'mypluginlibrary'
+project(':mypluginlibrary').projectDir = new File(settingsDir, "../mypluginlibrary")
